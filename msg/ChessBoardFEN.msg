@@ -2,4 +2,4 @@
 
 # See https://www.chess.com/terms/fen-chess for more information.
 
-string data
+string board

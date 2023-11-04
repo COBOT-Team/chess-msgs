@@ -17,7 +17,11 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/ChessBoardFEN.msg"
   "msg/ChessMoveUCI.msg"
   "msg/ChessTime.msg"
+  "msg/Color.msg"
   "msg/EngineInfo.msg"
+  "msg/GameConfig.msg"
+
+  "action/EvaluateMove.action"
 )
 
 ament_package()
