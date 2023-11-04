@@ -14,7 +14,10 @@ find_package(ament_cmake REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
-  "msg/BoardState.msg"
+  "msg/ChessBoardFEN.msg"
+  "msg/ChessMoveUCI.msg"
+  "msg/ChessTime.msg"
+  "msg/EngineInfo.msg"
 )
 
 ament_package()
