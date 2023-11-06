@@ -21,7 +21,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/EngineInfo.msg"
   "msg/GameConfig.msg"
 
-  "action/EvaluateMove.action"
+  "action/FindBestMove.action"
 )
 
 ament_package()

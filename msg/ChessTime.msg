@@ -1,4 +1,5 @@
-# This message indicates time information for both players of the current game.
+# This message indicates time information for both players of the current game. Time is in
+# milliseconds.
 
 # https://www.chess.com/article/view/an-introduction-to-chess-clocks
 
