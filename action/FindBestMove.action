@@ -1,6 +1,6 @@
 ### Request ###
 
-chess_msgs/ChessBoardFEN board
+chess_msgs/FullFEN fen
 chess_msgs/ChessTime time
 
 # This action can only be cancelled in analysis mode, but the engine can only offer draws and

@@ -14,12 +14,17 @@ find_package(ament_cmake REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
-  "msg/ChessBoardFEN.msg"
+  "msg/FullFEN.msg"
+  "msg/PartialFEN.msg"
   "msg/ChessMoveUCI.msg"
   "msg/ChessTime.msg"
   "msg/Color.msg"
   "msg/EngineInfo.msg"
   "msg/GameConfig.msg"
+
+  "srv/SetGameState.srv"
+  "srv/SetTime.srv"
+  "srv/RestartGame.srv"
 
   "action/FindBestMove.action"
 )
