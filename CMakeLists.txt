@@ -21,6 +21,9 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/Color.msg"
   "msg/EngineInfo.msg"
   "msg/GameConfig.msg"
+  "msg/CobotEnabled.msg"
+  "msg/CobotSpeed.msg"
+  "msg/CobotState.msg"
 
   "srv/SetGameState.srv"
   "srv/SetTime.srv"
