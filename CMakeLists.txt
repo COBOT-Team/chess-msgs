@@ -25,6 +25,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/CobotSpeed.msg"
   "msg/CobotState.msg"
 
+  "srv/CorrectCobot.srv"
   "srv/SetGameState.srv"
   "srv/SetTime.srv"
   "srv/RestartGame.srv"
