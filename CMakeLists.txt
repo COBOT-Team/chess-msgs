@@ -24,6 +24,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/CobotEnabled.msg"
   "msg/CobotSpeed.msg"
   "msg/CobotState.msg"
+  "msg/Point2.msg"
+  "msg/CameraPoints.msg"
 
   "srv/CorrectCobot.srv"
   "srv/SetGameState.srv"
